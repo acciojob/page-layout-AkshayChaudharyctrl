@@ -10,8 +10,10 @@ const App = () => {
   return (
     <PageLayout header={headerContent} footer={footerContent}>
       <main>
-       <h1>Welcome to my website</h1>
-      </main>
+      <header>This is the header</header>;
+      <div>This is the children content</div>;
+      <footer>This is the footer</footer>;
+     </main>
     </PageLayout>
   );
 };
